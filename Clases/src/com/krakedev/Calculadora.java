@@ -10,4 +10,11 @@ public class Calculadora {
 			return resultado;
 		}
 	
+	public int restar(int a, int b) {
+			
+			int resultado;
+			resultado = a - b;
+			
+			return resultado;
+		}
 }
