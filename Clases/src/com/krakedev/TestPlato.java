@@ -42,17 +42,17 @@ public class TestPlato {
 		
 		platoA.nombre = "Empanadas de verde";
 		platoA.tipo = "Entrada";
-		platoA.precio = 2.50;
+		platoA.precio = (float) 2.50;
 		platoA.disponible = true;
 		
 		platoB.nombre = "Seco de pollo";
 		platoB.tipo = "Plato fuerte";
-		platoB.precio = 4.75;
+		platoB.precio = (float) 4.75;
 		platoB.disponible = true;
 		
 		platoC.nombre = "Tres leches";
 		platoC.tipo = "Postre";
-		platoC.precio = 3.00;
+		platoC.precio = (float) 3.00;
 		platoC.disponible = false;
 		
 		System.out.println("Plato A:");

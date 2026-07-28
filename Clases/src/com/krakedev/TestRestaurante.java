@@ -29,11 +29,11 @@ public class TestRestaurante {
 		
 		rest1.nombre = "La Parrilla del Chef";
 		rest1.direccion = "Av. Amazonas y Naciones Unidas";
-		rest1.calificacion = 4.5;
+		rest1.calificacion = (float) 4.5;
 		
 		rest2.nombre = "Sabor Manabita";
 		rest2.direccion = "Calle Garcia Moreno y Bolivar";
-		rest2.calificacion = 4.8;
+		rest2.calificacion = (float) 4.8;
 		
 		System.out.println("Restaurante 1:");
 		System.out.println("Nombre: " + rest1.nombre);
