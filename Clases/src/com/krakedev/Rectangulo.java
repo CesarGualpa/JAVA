@@ -12,4 +12,12 @@ public class Rectangulo {
 		return area;
 	}
 	
+	public double calcularPerimetro() {
+		
+		double perimetro;
+		perimetro = base + base + altura + altura;
+		
+		return perimetro;
+	}
+	
 }
