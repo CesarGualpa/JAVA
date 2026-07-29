@@ -13,69 +13,69 @@ public class TestPlato {
 		Plato platoC;
 		platoC = new Plato();
 		
-		System.out.println("===== VALORES POR DEFECTO =====");
+		System.out.println("===== PLATOS: VALORES POR DEFECTO =====");
 		
 		System.out.println("Plato A:");
-		System.out.println("Nombre: " + platoA.nombre);
-		System.out.println("Tipo: " + platoA.tipo);
-		System.out.println("Precio: " + platoA.precio);
-		System.out.println("Disponible: " + platoA.disponible);
+		System.out.println("Nombre: " + platoA.getNombre());
+		System.out.println("Tipo: " + platoA.getTipo());
+		System.out.println("Precio: " + platoA.getPrecio());
+		System.out.println("Disponible: " + platoA.getDisponible());
 		
 		System.out.println();
 		
 		System.out.println("Plato B:");
-		System.out.println("Nombre: " + platoB.nombre);
-		System.out.println("Tipo: " + platoB.tipo);
-		System.out.println("Precio: " + platoB.precio);
-		System.out.println("Disponible: " + platoB.disponible);
+		System.out.println("Nombre: " + platoB.getNombre());
+		System.out.println("Tipo: " + platoB.getTipo());
+		System.out.println("Precio: " + platoB.getPrecio());
+		System.out.println("Disponible: " + platoB.getDisponible());
 		
 		System.out.println();
 		
 		System.out.println("Plato C:");
-		System.out.println("Nombre: " + platoC.nombre);
-		System.out.println("Tipo: " + platoC.tipo);
-		System.out.println("Precio: " + platoC.precio);
-		System.out.println("Disponible: " + platoC.disponible);
+		System.out.println("Nombre: " + platoC.getNombre());
+		System.out.println("Tipo: " + platoC.getTipo());
+		System.out.println("Precio: " + platoC.getPrecio());
+		System.out.println("Disponible: " + platoC.getDisponible());
 		
 		System.out.println();
-		System.out.println("===== VALORES MODIFICADOS =====");
+		System.out.println("===== PLATOS: VALORES MODIFICADOS =====");
 		
-		platoA.nombre = "Empanadas de verde";
-		platoA.tipo = "Entrada";
-		platoA.precio = (float) 2.50;
-		platoA.disponible = true;
+		platoA.setNombre("Empanadas de verde");
+		platoA.setTipo("Entrada");
+		platoA.setPrecio(2.50);
+		platoA.setDisponible(true);
 		
-		platoB.nombre = "Seco de pollo";
-		platoB.tipo = "Plato fuerte";
-		platoB.precio = (float) 4.75;
-		platoB.disponible = true;
+		platoB.setNombre("Seco de pollo");
+		platoB.setTipo("Plato fuerte");
+		platoB.setPrecio(4.75);
+		platoB.setDisponible(true);
 		
-		platoC.nombre = "Tres leches";
-		platoC.tipo = "Postre";
-		platoC.precio = (float) 3.00;
-		platoC.disponible = false;
+		platoC.setNombre("Tres leches");
+		platoC.setTipo("Postre");
+		platoC.setPrecio(3.00);
+		platoC.setDisponible(false);
 		
 		System.out.println("Plato A:");
-		System.out.println("Nombre: " + platoA.nombre);
-		System.out.println("Tipo: " + platoA.tipo);
-		System.out.println("Precio: " + platoA.precio);
-		System.out.println("Disponible: " + platoA.disponible);
+		System.out.println("Nombre: " + platoA.getNombre());
+		System.out.println("Tipo: " + platoA.getTipo());
+		System.out.println("Precio: " + platoA.getPrecio());
+		System.out.println("Disponible: " + platoA.getDisponible());
 		
 		System.out.println();
 		
 		System.out.println("Plato B:");
-		System.out.println("Nombre: " + platoB.nombre);
-		System.out.println("Tipo: " + platoB.tipo);
-		System.out.println("Precio: " + platoB.precio);
-		System.out.println("Disponible: " + platoB.disponible);
+		System.out.println("Nombre: " + platoB.getNombre());
+		System.out.println("Tipo: " + platoB.getTipo());
+		System.out.println("Precio: " + platoB.getPrecio());
+		System.out.println("Disponible: " + platoB.getDisponible());
 		
 		System.out.println();
 		
 		System.out.println("Plato C:");
-		System.out.println("Nombre: " + platoC.nombre);
-		System.out.println("Tipo: " + platoC.tipo);
-		System.out.println("Precio: " + platoC.precio);
-		System.out.println("Disponible: " + platoC.disponible);
+		System.out.println("Nombre: " + platoC.getNombre());
+		System.out.println("Tipo: " + platoC.getTipo());
+		System.out.println("Precio: " + platoC.getPrecio());
+		System.out.println("Disponible: " + platoC.getDisponible());
 		
 	}
 

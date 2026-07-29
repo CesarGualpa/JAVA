@@ -5,7 +5,34 @@ public class TestCuadrado {
 	public static void main(String[] args) {
 		
 		Cuadrado c1 = new Cuadrado();
-		c1.lado = 4;
+		Cuadrado c2 = new Cuadrado();
+		Cuadrado c3 = new Cuadrado();
+		
+		System.out.println("===== CUADRADOS: VALORES POR DEFECTO =====");
+		
+		System.out.println("Cuadrado 1:");
+		System.out.println("Lado: " + c1.getLado());
+		System.out.println("Area: " + c1.calcularArea());
+		System.out.println("Perimetro: " + c1.calcularPerimetro());
+		
+		System.out.println();
+		
+		System.out.println("Cuadrado 2:");
+		System.out.println("Lado: " + c2.getLado());
+		System.out.println("Area: " + c2.calcularArea());
+		System.out.println("Perimetro: " + c2.calcularPerimetro());
+		
+		System.out.println();
+		
+		System.out.println("Cuadrado 3:");
+		System.out.println("Lado: " + c3.getLado());
+		System.out.println("Area: " + c3.calcularArea());
+		System.out.println("Perimetro: " + c3.calcularPerimetro());
+		
+		System.out.println();
+		System.out.println("===== CUADRADOS: VALORES MODIFICADOS =====");
+		
+		c1.setLado(4);
 		
 		double resultadoArea1;
 		resultadoArea1 = c1.calcularArea();
@@ -13,15 +40,14 @@ public class TestCuadrado {
 		double resultadoPerimetro1;
 		resultadoPerimetro1 = c1.calcularPerimetro();
 		
-		System.out.println("Cuadrado 1");
-		System.out.println("Lado: " + c1.lado);
+		System.out.println("Cuadrado 1:");
+		System.out.println("Lado: " + c1.getLado());
 		System.out.println("Area: " + resultadoArea1);
 		System.out.println("Perimetro: " + resultadoPerimetro1);
 		
 		System.out.println();
 		
-		Cuadrado c2 = new Cuadrado();
-		c2.lado = 3;
+		c2.setLado(3);
 		
 		double resultadoArea2;
 		resultadoArea2 = c2.calcularArea();
@@ -29,15 +55,14 @@ public class TestCuadrado {
 		double resultadoPerimetro2;
 		resultadoPerimetro2 = c2.calcularPerimetro();
 		
-		System.out.println("Cuadrado 2");
-		System.out.println("Lado: " + c2.lado);
+		System.out.println("Cuadrado 2:");
+		System.out.println("Lado: " + c2.getLado());
 		System.out.println("Area: " + resultadoArea2);
 		System.out.println("Perimetro: " + resultadoPerimetro2);
 		
 		System.out.println();
 		
-		Cuadrado c3 = new Cuadrado();
-		c3.lado = 5;
+		c3.setLado(5);
 		
 		double resultadoArea3;
 		resultadoArea3 = c3.calcularArea();
@@ -45,8 +70,8 @@ public class TestCuadrado {
 		double resultadoPerimetro3;
 		resultadoPerimetro3 = c3.calcularPerimetro();
 		
-		System.out.println("Cuadrado 3");
-		System.out.println("Lado: " + c3.lado);
+		System.out.println("Cuadrado 3:");
+		System.out.println("Lado: " + c3.getLado());
 		System.out.println("Area: " + resultadoArea3);
 		System.out.println("Perimetro: " + resultadoPerimetro3);
 
