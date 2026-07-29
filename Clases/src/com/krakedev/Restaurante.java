@@ -6,6 +6,12 @@ public class Restaurante {
 	private String direccion;
 	private double calificacion;
 	
+	public Restaurante(String nombre, String direccion, double calificacion) {
+		this.nombre = nombre;
+		this.direccion = direccion;
+		this.calificacion = calificacion;
+	}
+	
 	public String getNombre() {
 		return nombre;
 	}
